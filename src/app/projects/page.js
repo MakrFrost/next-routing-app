@@ -6,10 +6,7 @@ export default function Projects() {
       <Head title={"React`s project"} />
       <h1>All Project`s page</h1>
       <p>
-        loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
-        lorem lore
-        loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
-        lorem lorem loremlorem loremlorem lorem lorem loremm loremlorem
+        loremloremloremloremloremlor lorem lore loremloremloremloremloemlo
         loremlorem lorem lorem lorem
       </p>
     </>
