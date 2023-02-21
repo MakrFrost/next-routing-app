@@ -15,10 +15,10 @@
   background: linear-gradient(
     81deg,
     rgba(228, 228, 228, 0.401) 0%,
-    rgba(255, 255, 255, 0.757) 33%,
+    rgba(94, 94, 94, 0.757) 33%,
     rgba(145, 145, 145, 0.678) 50%,
     rgba(78, 78, 78, 0.816) 58%,
-    rgba(250, 250, 250, 0.642) 80%,
+    rgba(214, 214, 214, 0.642) 80%,
     rgba(139, 139, 139, 0.39) 100%
   );
   animation: gradient 25s infinite linear;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     & li {
-      height: 55px;
+      height: 57px;
       &:not(:last-child) {
         margin-right: 16px;
       }

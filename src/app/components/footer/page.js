@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p className="footer-title">
-        Want to know more or just chat? You are welcome!
+        <b>Want to know more or just chat? You are welcome!</b>
       </p>
       <ul className="footer-list">
         <li>
