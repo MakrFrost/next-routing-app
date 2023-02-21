@@ -1,21 +1,29 @@
 "use client";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
-import "./page.scss";
+import scss from "./page.module.scss";
 
 export default function Header() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
+  const currentRoute = usePathname();
 
   return (
-    <nav className="nav-block">
-      <Link className="nav-link" href={"./"}>
+    <nav className={scss.nav_block}>
+      <Link
+        className={currentRoute === "/" ? scss.active : scss.nav_link}
+        href={"./"}
+      >
         Homepage
       </Link>
-      <Link className="nav-link" href={"./about"}>
+      <Link
+        className={currentRoute === "/about" ? scss.active : scss.nav_link}
+        href={"./about"}
+      >
         Aboutpage
       </Link>
-      <Link className="nav-link" href={"./projects"}>
+      <Link
+        className={currentRoute === "/projects" ? scss.active : scss.nav_link}
+        href={"./projects"}
+      >
         Projectpage
       </Link>
     </nav>
