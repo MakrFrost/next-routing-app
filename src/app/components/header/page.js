@@ -15,16 +15,18 @@ export default function Header() {
         Homepage
       </Link>
       <Link
-        className={currentRoute === "/about" ? scss.active : scss.nav_link}
-        href={"./about"}
+        className={
+          currentRoute === "/certificates" ? scss.active : scss.nav_link
+        }
+        href={"./certificates"}
       >
-        Aboutpage
+        Certificates
       </Link>
       <Link
         className={currentRoute === "/projects" ? scss.active : scss.nav_link}
         href={"./projects"}
       >
-        Projectpage
+        Projects
       </Link>
     </nav>
   );
