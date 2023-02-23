@@ -1,4 +1,5 @@
-import Image from "next/legacy/image";
+// "use client";
+
 import Head from "./head";
 import Swiper from "../components/swiper/swiper";
 
@@ -9,7 +10,10 @@ export default function Certificates() {
 
   return (
     <>
-      <Swiper data={data} />
+      <Head title={"Certifications page"} />
+      <>
+        <Swiper data={data} />
+      </>
     </>
   );
 }

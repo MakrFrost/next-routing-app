@@ -2,9 +2,10 @@
 import { useKeenSlider } from "keen-slider/react";
 import { useState } from "react";
 import "keen-slider/keen-slider.min.css";
-import "./swiper.scss";
+
 import Image from "next/legacy/image";
 import Link from "next/link";
+import "./swiper.scss";
 
 export default function Swiper({ data }) {
   const [currentSlide, setCurrentSlide] = useState(0);
