@@ -1,14 +1,17 @@
 import Head from "./head";
+import Swiper from "../components/swiper/swiper";
 
-export default function Projects() {
+import Data from "../../../public/images/works/index";
+
+export default function Projects({}) {
+  const data = Data();
+
   return (
     <>
       <Head title={"React`s project"} />
-      <h1>All Project`s page</h1>
-      <p>
-        loremloremloremloremloremlor lorem lore loremloremloremloremloemlo
-        loremlorem lorem lorem lorem
-      </p>
+      <>
+        <Swiper data={data} />
+      </>
     </>
   );
 }

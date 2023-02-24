@@ -1,5 +1,3 @@
-// "use client";
-
 import Head from "./head";
 import Swiper from "../components/swiper/swiper";
 
